@@ -1,5 +1,6 @@
 // Step 1: Define the createLoginTracker Function (Outer Function)
 const createLoginTracker = (userInfo) => {
+                  
   // Initialize Login Tracking
   let attemptCount = 0;
   const MAX_ATTEMPTS = 3;
